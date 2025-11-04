@@ -1,7 +1,5 @@
 import React from "react";
-//import avatarImg from "../../assets/7358602-removebg-preview.png";
-import img1 from "../../assets/aneesh-photo.png";
-
+import avatarImg from "../../assets/7358602-removebg-preview.png";
 import TextChange from "../TextChange";
 
 const Home = () => {
@@ -20,8 +18,7 @@ const Home = () => {
         </button>
       </div>
       <div>
-        
-        <img className="" src={img1} alt="" />
+        <img className="" src={avatarImg} alt="" />
       </div>
     </div>
   );
