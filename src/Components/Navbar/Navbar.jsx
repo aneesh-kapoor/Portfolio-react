@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { RiCloseLine, RiMenu2Line } from "@remixicon/react";
 const Navbar = () => {
@@ -5,7 +6,7 @@ const Navbar = () => {
   const [showMenu, setShowmenu] = useState(true);
   return (
     <nav className="flex flex-wrap justify-between md:items-center text-white px-10 pt-6 md:px-20">
-      <span className="text-xl font-bold tracking-wide">Portfolio</span>
+      <span className="text-xl font-bold tracking-wide  p-8 ">PORTFOLIO</span>
 
       <ul
         className={`${

@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import avatarImg from "../../assets/123.png";
+import avatarImg from "../../assets/7358602-removebg-preview.png";
 import TextChange from "../TextChange";
 
 const Home = () => {
