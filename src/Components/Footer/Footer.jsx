@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
@@ -17,17 +18,38 @@ const Footer = () => {
       </div>
 
       <ul className="text-sm md:text-xl">
-        <li className="flex gap-1 items-center">
-          <MdOutlineEmail size={20} />
-          myemail@gmail.com
+        <li>
+          <a
+            href="mailto:aneeshkapoor786@gmail.com"
+            className="flex gap-1 items-center hover:text-orange-300 transition-colors duration-300"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MdOutlineEmail size={20} />
+            aneeshkapoor786@gmail.com
+          </a>
         </li>
-        <li className="flex gap-1 items-center">
-          <CiLinkedin />
-          linkdlin.com/username
+        <li>
+          <a
+            href="https://www.linkedin.com/in/aneesh-kapoor-11101996aneesh"
+            className="flex gap-1 items-center hover:text-orange-300 transition-colors duration-300"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <CiLinkedin />
+            LinkedIn
+          </a>
         </li>
-        <li className="flex gap-1 items-center">
-          <FaGithub />
-          github.com/username
+        <li>
+          <a
+            href="https://github.com/aneesh-kapoor"
+            className="flex gap-1 items-center hover:text-orange-300 transition-colors duration-300"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub />
+            GitHub
+          </a>
         </li>
       </ul>
     </div>

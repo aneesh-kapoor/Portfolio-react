@@ -21,11 +21,13 @@ const About = () => {
                   Frontend developer
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis quos consectetur ea harum! Libero aut qui
-                  similique recusandae provident consectetur sed itaque alias
-                  sint ipsa?
+                  I am a Frontend Developer skilled in creating visually
+                  appealing and highly interactive web applications. My core
+                  expertise includes HTML5, CSS3, JavaScript ES6+, React JS,
+                  Tailwind CSS, and UI component libraries. I focus on
+                  responsive layouts, optimized performance, reusable
+                  components, and best development practices to ensure a smooth
+                  user experience across devices.
                 </p>
               </span>
             </div>
@@ -37,8 +39,11 @@ const About = () => {
                   Database developer
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores
+                  I am a Database Developer with expertise in designing,
+                  implementing, and managing databases to ensure efficient data
+                  storage and retrieval. I work with SQL and NoSQL databases,
+                  focusing on data modeling, indexing, query optimization, and
+                  ensuring data integrity and security.
                 </p>
               </span>
             </div>
@@ -50,9 +55,10 @@ const About = () => {
                   Backend developer
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis
+                  I am a Backend Developer who focuses on building reliable,
+                  secure, and efficient server-side applications. I work with
+                  Node.js and Express.js to create APIs and manage data flow
+                  between the database and the user interface.
                 </p>
               </span>
             </div>

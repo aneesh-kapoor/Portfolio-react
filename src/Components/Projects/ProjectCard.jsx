@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import React from "react";
 import bannerImg from "../../assets/photo-C8q0KQHG.webp";
 
@@ -30,8 +32,10 @@ const IconGithub = () => (
 );
 
 const ProjectCard = ({
+  // eslint-disable-next-line react/prop-types
   title = "Untitled Project",
   main = "No description provided.",
+  // eslint-disable-next-line react/prop-types
   liveUrl,
   repoUrl,
   image,
